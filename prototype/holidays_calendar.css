@@ -1,0 +1,50 @@
+#calendar > div {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse
+}
+
+.week td, .tableheader th {
+    width: 30px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.month_name {
+    font-weight: bold;
+    width: 50px !important;
+}
+
+.week td:nth-last-child(1):not(:empty),
+.week td:nth-last-child(2):not(:empty),
+#nov3 td:nth-child(1),
+#dec5 td:nth-child(3),
+#jan2 td,
+#jan3 td,
+#feb4 td:nth-child(-n+5),
+#apr2 td:nth-child(n+5),
+#apr3 td:nth-child(-n+2),
+#jun4 td:nth-child(n+1),
+#jun5 td:nth-child(1),
+#jun5 td:nth-child(2),
+#jul1 td:nth-last-child(-n+5),
+#jul2 td, #jul3 td, #jul4 td,
+#jul5 td:nth-child(-n+5),
+#aug2 td, #aug3 td, #aug4 td,
+#aug5 td, #aug6 td:nth-child(1) {
+    background-color: lightgray;
+}
+
+#nov3 td:nth-child(2),
+#jan1 td:nth-child(5),
+#jan1 td:nth-child(6),
+#feb3 td:nth-child(7),
+#feb4 td:nth-child(-n+2),
+#may1 td:nth-child(6),
+#may1 td:nth-child(7) {
+    background-color: coral !important;
+}
