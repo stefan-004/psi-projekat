@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Autor: Vuk Dolijanovic 2023/0046 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kreiranje predmeta</title>
+</head>
+<body>
+
+<header>
+    <h2>Direktorski panel</h2>
+    <nav>
+        <a href="index.html">Početna</a>
+    </nav>
+    <hr>
+</header>
+
+<main>
+    <h2>Kreiranje novog predmeta</h2>
+
+    <label>Naziv predmeta:</label><br>
+    <input type="text" placeholder="Unesite naziv"><br><br>
+
+    <label>Tip predmeta:</label><br>
+
+    <input type="radio" id="elective" name="subject_type" value="elective">
+    <label for="elective">Izborni</label><br>
+
+    <input type="radio" id="mandatory" name="subject_type" value="mandatory" checked>
+    <label for="mandatory">Obavezni</label><br>
+
+    <input type="radio" id="optional" name="subject_type" value="optional">
+    <label for="optional">Neobavezni</label><br>
+
+    <br>
+    <a href="index.html">
+        <button>Kreiraj predmet</button>
+    </a>
+
+</main>
+
+</body>
+</html>
